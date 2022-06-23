@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Inventario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Link CSS -->
+        <link rel ="stylesheet" href ="CSS/Style.css"/>
+    
+        <!-- Bootsrap -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">   
+    
+    </head>
+   
+    <body>
+        
+    <center>
+        <p class="text-center"> </p>
+        <h2> Inventario </h2>
+    </center> 
+        
+        <form> 
+            <label for="Inv_ID"> Inventario ID </label>
+            <input id="txt_Inv_ID" type="text"> 
+            
+             <label for="Com_Fecha"> Fecha: </label> 
+            <input type="date" name="Fecha" step="1" min="2019-01-01" max="2040-12-31" value="2019-01-01">
+        
+            <label for="Usu_ID"> ID de usuario: </label>
+            <input id="txt_Usu_ID" type="text">
+            
+            <label for="Pro_ID"> ID del producto: </label>
+            <input id="txt_Pro_ID" type="text">
+            
+            <button> Consultar </button>
+            <button> Registrar </button>
+        </form>
+    
+    </body>
+    
+</html>

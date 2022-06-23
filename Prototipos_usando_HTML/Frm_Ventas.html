@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ventas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <!-- Link CSS -->
+        <link rel ="stylesheet" href ="CSS/Style.css"/>
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">   
+     
+    </head>
+    
+    <body>
+        <center>
+        <p class="text-center"> </P>
+            <h2>Ventas</h2>         
+        </center>
+    
+    <form>
+        <label for="Ven_NumeroDeVenta"> Número de venta: </label> 
+        <input id="txt_Ven_NumeroDeVenta" type="text"> 
+        
+        <label for="ItemVenta_ID"> Item de venta ID: </label>
+        <input id="txt_ItemVenta_ID" type="text"> 
+        
+        <label for="Cli_ID"> ID del cliente:</label>
+       <select class="form-control" id="Select_Cli_ID">
+         <option>5343</option>
+         <option>4245</option>
+         <option>6465</option>
+       </select>
+        <br> 
+        
+        <label for="Com_Fecha"> Fecha: </label> 
+        <input type="date" name="Fecha" step="1" min="2019-01-01" max="2040-12-31" value="2019-01-01">
+        
+        <label for="Ven_ID"> ID del Vendedor: </label>
+        <select class="form-control" id="Select_Ven_ID"> 
+            <option> 4579 </option>
+            <option> 3235 </option>
+            <option> 5623 </option>
+        </select>
+        <br> 
+        
+        <label for="Ven_CostoPorUnidad"> Costo por unidad: </label>
+        <input id="txt_Ven_CostoPorUnidad" type="text"> 
+        
+        <label for="Pro_ID"> ID del Producto </label>
+        <select class="form-control" id="Select_Pro_ID"> 
+            <option> 2579 </option>
+            <option> 1235 </option>
+            <option> 7623 </option>
+        </select>
+        <br> 
+        
+        <label for="ItemVenta_Cantidad"> Cantidad vendida: </label> 
+        <input id="txt_ItemVenta_Cantidad" type="text"> 
+        
+        <label for="Ven_Observaciones"> Observaciones: </label>
+        <textarea class="form-control" id="Ven_Observacion" rows="3"> </textarea>
+    
+        <label for="Ven_Subtotal"> Subtotal: </label>
+        <input id="txt_Ven_Subtotal" type="text"> 
+        
+        <label for="Ven_Impuestos"> Impuestos: </label>
+        <input id="txt_Ven_Impuestos" type="text"> 
+        
+        <label for="Ven_Descuentos"> Descuentos: </label>
+        <input id="txt_Ven_Descuentos" type="text"> 
+        
+        <label for="Ven_Total"> Total: </label>
+        <input id="txt_Ven_Total" type="text"> 
+        
+        <button> Ingresar </button>           
+            <button> Actualizar</button>
+            <button> Consultar</button>
+            <button> Eliminar </button>
+        
+    </form> 
+    </body>
+</html>

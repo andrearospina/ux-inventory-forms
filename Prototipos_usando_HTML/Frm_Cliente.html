@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cliente</title>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href ="CSS/Style.css"/>
+     
+        <!-- Bootsrap -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        
+       
+    </head>
+    <body>
+        <?php
+        // put your code here
+        ?>
+        <center>
+        <p class="text-center"> </P>
+            <h2> Cliente </h2>         
+        </center>
+    
+        
+        <form>  
+            
+            <label for ="Cli_ID" >
+                <div style ="text-align:left"> ID del cliente: </div> </label> 
+                    <input id ="txt_Cli_ID" type ="text">
+                    
+             <label for ="Cli_Nombre" > Nombre completo: </label> 
+                 <input id="Cli_Nombre" type="text">
+            
+            <label for ="Cli_Apellidos" > Apellidos: </label> 
+                    <input id="Cli_Apellidos" type="text" name="Apellidos">
+            
+            <label for ="Cli_Email" > Email: </label> 
+                    <input id="Cli_Email" type="text" name="Email">    
+             
+            <label for ="Cli_Direccion" > Dirección: </label> 
+                    <input id="Cli_Direccion" type="text" name="Direccion">       
+               
+                    
+    <!--Seleccionar varias ciudades bootstrap-->    
+    
+       <div class="form-group"> 
+       <label for="Ciu_Nombre">Ciudad:</label>
+       <select class="form-control" id="SelectCiu_Nombre">
+         <option>Manizales</option>
+         <option>Pereira</option>
+         <option>Armenia</option>
+         <option>Cali</option>
+         <option>Medellin</option>
+       </select>
+     </div
+     
+    <!--Seleccionar varios departamentos bootstrap--> 
+    
+      <div class="form-group"> 
+       <label for="Dep_Nombre">Departamento:</label>
+       <select class="form-control" id="Select_Dep_Nombre">
+         <option>Caldas</option>
+         <option>Risaralda</option>
+         <option>Quindio</option>
+         <option>Valle del cauca</option>
+         <option>Antioquia</option>
+       </select>
+     </div
+
+     <br> 
+     
+            <button> Ingresar </button>           
+            <button> Actualizar</button>
+            <button> Consultar</button>
+            <button> Eliminar </button>
+
+        </form> 
+            
+            
+    </body>
+</html>
+
+
+

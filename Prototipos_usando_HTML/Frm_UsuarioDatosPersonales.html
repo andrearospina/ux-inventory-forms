@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+        <!-- Link CSS -->
+        <link rel ="stylesheet" href ="CSS/Style.css"/>
+    
+        <!-- Bootsrap -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">   
+    
+    </head>
+    
+    
+    <body>
+        
+    <center> 
+        <p class="text-center"> </p>
+        <h2> Usuario - Datos personales </h2>
+    </center> 
+    
+    <form> 
+        <label form="Usu_ID"> ID de usuario: </label> 
+        <input id="txt_Usu_ID" type="text"> 
+        
+        <label for="Usu_Clave"> Contraseña: </label>
+        <input id="txt_Usu_clave" type="text"> 
+        
+        <label for ="Usu_Clave"> Confirmar contraseña: </label>
+        <input id="txt_Usu_Clave" type="text"> 
+        
+        <label for="Usu_Nombre"> Nombre Completo: </label> 
+        <input id="txt_Usu_Nombre" type="text"> 
+        
+        <label for="Usu_Apellido"> Apellido: </label>
+        <input id="txt_Usu_Apellido" type="text" placeholder="Paterno/Materno"> 
+        
+      
+     
+      
+         <label for="Usu_Rol"> Rol: </label> 
+         <select class="form-control" id="Select_Usu_Rol"> 
+             <option> Operario </option>
+             <option> Administrador </option> 
+             <option> Vendedor </option>
+         </select>
+         
+         <br> 
+         
+         <button> Ingresar </button>
+         <button> Consultar </button>
+         <button> Actualizar </button>
+         <button> Eliminar </button> 
+    </body>
+</html>

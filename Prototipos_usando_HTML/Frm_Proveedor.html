@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href ="CSS/Style.css"/>
+     
+        <!-- Bootsrap -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+        
+        <title>Proveedores</title>
+    </head>
+    <body>
+        <?php
+        // put your code here
+        ?>
+        <center>
+        <p class="text-center"> </P>
+            <h2> Proveedores </h2>         
+        </center>
+    
+        
+        <form>  
+            
+            <label for ="Prov_Id" >
+                <div style ="text-align: left" > ID del proveedor: </div> </label> 
+                    <input id ="Prov_Id" type ="text">
+                    
+             <label for ="Prov_Nom_Empresa" > Nombre empresa: </label> 
+                 <input id="Prov_Nom_Empresa" type="text">
+            
+            <label for ="Prov_Direccion" > Dirección: </label> 
+                    <input id="Prov_Direccion" type="text" name="direccion">             
+                    
+    <!--Seleccionar varias ciudades bootstrap-->    
+    
+       <div class="form-group"> 
+       <label for="Ciu_Nombre">Ciudad:</label>
+       <select class="form-control" id="SelectCiu_Nombre">
+         <option>Manizales</option>
+         <option>Pereira</option>
+         <option>Armenia</option>
+         <option>Cali</option>
+         <option>Medellin</option>
+       </select>
+     </div
+     
+    <!--Seleccionar varios departamentos bootstrap--> 
+    
+      <div class="form-group"> 
+       <label for="Dep_Nombre">Departamento:</label>
+       <select class="form-control" id="Select_Dep_Nombre">
+         <option>Caldas</option>
+         <option>Risaralda</option>
+         <option>Quindio</option>
+         <option>Valle del cauca</option>
+         <option>Antioquia</option>
+       </select>
+      </div>
+    <label for ="Prov_Nit" > NIT empresa: </label> 
+                    <input id="Prov_Nit" type="text" name="Email">    
+             
+            <label for ="Prov_Rep_Legal" > Representante legal: </label> 
+                    <input id="Cli_Direccion" type="text" name="rep_legal"> 
+    <label for ="Prov_Razon_Social" > Razón social: </label> 
+                    <input id="Prov_Razon_Social" type="text" name="razon_social">    
+             
+            <label for ="Prov_Telefono" > Teléfono: </label> 
+                    <input id="Prov_Telefono" type="text" name="telefono"> 
+    <label for ="Prov_Email" > Email: </label> 
+                    <input id="Prov_Email" type="text" name="Email">           
+
+     <br> 
+            <button> Ingresar </button> 
+            <button> Actualizar </button>
+            <button> Consultar</button>
+            <button> Eliminar </button>
+        </form> 
+            
+            
+    </body>
+</html>
